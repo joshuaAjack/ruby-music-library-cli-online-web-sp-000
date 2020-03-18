@@ -31,7 +31,7 @@ class Genre
   def songs
     @songs
   end
-
+# binding pry
   def artists
     self.songs.collect {|s| s.artist}.uniq
   end
